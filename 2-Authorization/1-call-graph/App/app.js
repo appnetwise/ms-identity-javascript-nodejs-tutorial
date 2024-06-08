@@ -21,7 +21,7 @@ async function main() {
      * and set them as desired. Visit: https://www.npmjs.com/package/express-session
      */
     app.use(session({
-        secret: 'ENTER_YOUR_SECRET_HERE',
+        secret: 'THIS IS MY SECRET',
         resave: false,
         saveUninitialized: false,
         cookie: {
